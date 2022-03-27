@@ -1,0 +1,19 @@
+      .box1 {
+    background-color: red;
+     display: inline;
+     margin: 34px;
+     /* display: none; */
+     /* visibility: hidden; */
+                 }
+
+
+    .box2 {
+    background-color:purple;                                                  display: inline-block;
+    margin: 34px;
+    width: 434px;
+    height: 234px;
+    text-align: center;
+    /* display: none; */
+    /* visibility: hidden; */
+     }          
+

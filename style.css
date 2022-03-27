@@ -1,0 +1,60 @@
+styling for color.html
+  .red
+    {
+        background-color: red;
+        color: white;
+        height: 200px;
+    }
+    .green
+    {
+        background-color: rgb(39, 0, 27);
+        color: blanchedalmond;
+    }
+ *
+ {
+     margin: o;
+     padding: 0;
+ } */
+    
+ 
+
+ /* styling for backgorund.html */
+     .first  
+   {
+       width: 600px;
+       height: 1500px;
+       border: 2px solid red;
+        background-color: black; 
+        color: white; */
+        background-image: url(corousal.jpeg);
+       background-repeat: no-repeat; 
+      
+       background: red url(corousal.jpeg)  no-repeat scroll top right; 
+        background-size: 200px 200px ; 
+        background-position: top, center ; 
+        background-attachment: fixed; 
+ 
+   }
+   *
+   {
+       margin: o;
+       padding: 0;
+  } 
+   body{ 
+       background-image: url(corousal.jpeg);
+       background-repeat: no-repeat;
+       height: 344px;
+       background-size: contain;
+       width: 344px;
+        background-color: black;
+        height: 344px; 
+        border: 2px solid;
+       color: white;
+
+    } 
+
+
+
+
+  
+    

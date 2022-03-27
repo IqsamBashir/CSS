@@ -1,0 +1,74 @@
+li{
+    /* display: inline; */
+    padding: 30px;
+    list-style: square;
+}
+ul{
+    /* background-color: red; */
+    list-style: circle inside url('wallpaper.jpg');
+}
+
+
+.container
+{
+    height: 55vh;
+    width: 80vw;
+    background-color: red;
+    margin: auto;
+    /* yaha be abh box conatiner k hisab se move karega kyunki conatiner pehla non static hai for box */
+    position: relative;
+    padding: 0 34px;
+    z-index: 2;
+   
+}
+
+body{
+    height: 4444px;
+}
+
+header 
+{
+    height: 89px;
+    width: 600px;
+    color: white;
+    background-color: black;
+    top: 0px;
+    position: sticky;
+    z-index: 10;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+p{
+    text-align: center;
+    padding: 20px;
+    border: 2px double green;
+}
+.box
+{
+    /* height: 20px;
+    width: 20px; */
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    /* position: relative; */
+    /* position: absolute; */
+    position: fixed;
+     /* bottom: 60px; */
+    /* left:100%; */
+     border: 2px solid black;
+     /* top karega apne aap ko html k hisab se show because topiska uppermost parent h; */
+     top: 0px;
+     right: 0;
+}
+
+.box2
+{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    /* position: relative; */
+    border: 3px double blue;
+}

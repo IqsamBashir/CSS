@@ -1,0 +1,38 @@
+li{
+    list-style: none;
+    display: inline;
+    padding: 0 43px;
+    
+}
+ul{
+    padding: 34px;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 66px;
+}
+
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.left
+{
+    height: 80vh;
+    width: 40vw;
+    background-color: blue;
+}
+.right
+{
+    width: 40vw;
+    height: 80vh;
+    background-color: aqua;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+}

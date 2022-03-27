@@ -1,0 +1,21 @@
+.content
+{
+    height: 300px;
+    width: 300px;
+    color:black;
+    background-color: aqua;
+    letter-spacing: 2px;
+    margin: 14px;
+    padding: 10px;
+    border: 8px solid pink;
+    /* border-style: ridge dotted none solid; */
+    border-radius: 50px;
+    font-size:large;
+}   
+
+*
+{
+    margin: 0;
+    padding: 0;
+  
+}

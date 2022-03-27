@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* element selector directing applying styles on tags */
+        h1
+        {
+            color: red;
+
+        }
+        div, h3{
+            background-color: antiquewhite;
+        }
+        /* id selector  */
+        #red
+        {
+            background-color: palevioletred;
+            color: white;
+        }
+        /* class selector  */
+        .blue
+        {
+            color: black;
+            background-color: aquamarine;
+            border: 2px solid;
+        }
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1> This is my CSS selector page</h1>
+       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla quas saepe. Nam mollitia earum sit deleniti aut amet aspernatur repudiandae odit. Qui ipsum a voluptates iusto aspernatur eum officiis consectetur perspiciatis sed eos.</p>
+    </div>
+    <h1>This is Another Heading</h1>
+    div <div id="red">bg is red</div>
+    <span class="blue">first tag</span>
+    <span class="blue">second tag</span>
+    <span class="blue">third tag</span>
+    <h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique aspernatur, voluptatum magnam minus adipisci inventore doloremque tempora ratione quam, accusantium alias rerum.</p>
+    </h3>
+</body>
+</html>

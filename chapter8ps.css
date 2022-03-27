@@ -1,0 +1,68 @@
+header{
+    height: 122px;
+    background-color: black;
+    
+}
+
+main{
+    height: 500px;
+    background-color: blue;
+    width: 400px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.progress
+{
+    background-color: red;
+    height: 3px;
+    transition-duration: 2s;
+    
+    animation: loadProgress 1s ease-in-out 1;
+}
+
+ @keyframes loadProgress{
+    0%
+    {
+        width: 0;
+    }
+
+    50%
+    {
+        width: 5vw;
+    }
+    100%
+    {
+        width: 100vw;
+    }
+} 
+
+#abc{
+    height: 300px;
+    transform: rotate(90deg);
+    animation: rotate 1s ease-in infinite;
+}
+
+img
+{
+    display: block;
+    margin: auto;
+}
+
+
+@keyframes rotate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+

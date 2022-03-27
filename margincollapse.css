@@ -1,0 +1,25 @@
+.box1
+{
+    background-color: red;
+    margin: 50px;
+    height: 1235px;
+    width: 345px;
+    border:  2px solid black;
+}
+.box2{
+    background-color: aqua;
+    /* margin: 40px; //margin is not counted here */
+    width: 100%;
+    height: 35px;
+    padding: 4px;
+    border: 10px solid black;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+}
+
+* 
+/* //sare elemnts ki m b 0 and p b 0// */
+{
+    margin: 0;
+    padding: 0;
+}

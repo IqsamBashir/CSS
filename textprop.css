@@ -1,0 +1,17 @@
+p
+{
+    background-color: black;
+    width: 434px;
+    height: 145px;
+    color: white;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 1.8;
+    font-size: 30px;
+    font-weight: 100;
+    /* font-style: oblique; */
+    /* font-family:ubuntu,'Times New Roman', Times, serif ; */
+    font-family: 'Hurricane', cursive;
+ 
+}

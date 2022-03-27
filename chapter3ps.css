@@ -1,0 +1,33 @@
+header{
+    height: 80px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 13px;
+    
+}
+.content
+{
+    background-color: aqua;
+    height: 90vh;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    box-sizing: border-box;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: purple;
+}
+footer p {
+    text-align: center;
+    margin: 20px;
+
+
+
+}
